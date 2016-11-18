@@ -16,11 +16,6 @@ import android.widget.TextView;
 public class messageto extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle saveInstanceState) {
         View view = inflater.inflate(R.layout.messageto, container, false);
-        Button select_button = (Button) view.findViewById(R.id.Messageto_Selectbutton);
-        Button upload_button = (Button) view.findViewById(R.id.Messageto_Uploadbutton);
-        ImageView imageView = (ImageView) view.findViewById(R.id.Messageto_ImageView);
-        TextView message_text = (TextView) view.findViewById(R.id.Messageto_MessageText);
-        
         return view;
     }
 }

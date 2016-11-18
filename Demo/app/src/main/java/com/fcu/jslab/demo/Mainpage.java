@@ -105,7 +105,7 @@ public class Mainpage extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
             fragment = new messageto();
         } else if (id == R.id.nav_share) {
-            fragment = new fragment_5();
+            fragment = new picture_and_video();
         } else if (id == R.id.nav_send) {
             fragment = new fragment_6();
         }
