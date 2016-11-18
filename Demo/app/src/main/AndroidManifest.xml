@@ -30,6 +30,7 @@
         <activity
             android:name=".register_page"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".picture"></activity>
     </application>
 
 </manifest>
