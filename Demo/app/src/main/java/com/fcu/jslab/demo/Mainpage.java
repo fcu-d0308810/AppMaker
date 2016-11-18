@@ -103,7 +103,7 @@ public class Mainpage extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
             fragment = new calendar();
         } else if (id == R.id.nav_manage) {
-            fragment = new fragment_4();
+            fragment = new messageto();
         } else if (id == R.id.nav_share) {
             fragment = new fragment_5();
         } else if (id == R.id.nav_send) {
