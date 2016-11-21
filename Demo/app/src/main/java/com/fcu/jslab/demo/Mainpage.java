@@ -97,7 +97,7 @@ public class Mainpage extends AppCompatActivity
         }
         //
         if (id == R.id.nav_camera) {
-            fragment = new fragment_1();
+            fragment = new curriculum();
         } else if (id == R.id.nav_gallery) {
             fragment = new messageboard();
         } else if (id == R.id.nav_slideshow) {
