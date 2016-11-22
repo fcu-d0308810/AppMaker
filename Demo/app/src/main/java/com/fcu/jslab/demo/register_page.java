@@ -87,6 +87,7 @@ public class register_page extends AppCompatActivity {
             String json = "";
 
             JSONObject jsonObject = new JSONObject();
+            //這裡只是測試的直到時候要改掉
             jsonObject.accumulate("name",person.getName());
             jsonObject.accumulate("country",person.getCountry());
             jsonObject.accumulate("twitter",person.getTwitter());
