@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="single">
-        <item android:title="　臉書" >
+        <item android:title="　課表" >
             <menu>
                 <item
                     android:id="@+id/nav_camera"
@@ -14,7 +14,7 @@
         </item>
 
 
-        <item android:title="Gallery">
+        <item android:title="  留言板">
             <menu>
                 <item
                     android:id="@+id/nav_gallery"
@@ -25,7 +25,7 @@
         </item>
 
 
-        <item android:title="Hello">
+        <item android:title="  行事曆">
             <menu>
                 <item
                     android:id="@+id/nav_slideshow"
@@ -36,7 +36,7 @@
         </item>
 
 
-        <item android:title="Tools">
+        <item android:title=" Tools">
             <menu android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_manage"
@@ -46,8 +46,7 @@
         </item>
 
 
-        <item
-            android:title="Share">
+        <item android:title="  上傳">
             <menu>
                 <item
                     android:id="@+id/nav_share"

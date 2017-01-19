@@ -56,7 +56,13 @@ public class picture extends AppCompatActivity implements View.OnClickListener {
             startActivityForResult(Intent.createChooser(intent, "Complete action using..."),1);
         }
         else if(view == upload_button){
-            //dialog = ProgressDialog.show();
+            dialog = ProgressDialog.show(picture.this, "", "Uploading file...", true);
+            message_text.setText("uploading started.....");
+            new Thread(new Runnable() {
+                public void run() {
+                    uploadFile(imagepath);
+                }
+            }).start();
         }
     }
     public int uploadFile(String sourceFileUri){
