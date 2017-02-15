@@ -39,7 +39,7 @@ public class register_page extends AppCompatActivity {
             public void onClick(View view) {
                 if(validate()){
                     // call AsynTask to perform network operation on separate thread
-                    new HttpAsyneTask().execute("http://hmkcode.appspot.com/jsonservlet");
+                    new HttpAsyneTask().execute("http://hmkcode.appspot.com/jsonservle");
                     finish();
                 }
                 else{

@@ -181,6 +181,8 @@ public class picture extends AppCompatActivity implements View.OnClickListener {
 
         }
     }
+    // the problem goes here
+    // can't get the path
     public String getPath(Uri uri) {
         String[] projection = { MediaStore.Images.Media.DATA };
         Cursor cursor = managedQuery(uri, projection, null, null, null);
